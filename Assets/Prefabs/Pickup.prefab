@@ -125,5 +125,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c28d5c9d7cc4f95879051a89a0bdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickupRotator
-  rotationSpeed: 90
+  rotationSpeed: 180
   scoreValue: 10

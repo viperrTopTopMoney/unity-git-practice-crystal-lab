@@ -17,7 +17,7 @@ public class GameSession : MonoBehaviour
         GUI.color = Color.white;
         var title = new GUIStyle(GUI.skin.label) { fontSize = 25, fontStyle = FontStyle.Bold };
         var body = new GUIStyle(GUI.skin.label) { fontSize = 16 };
-        GUI.Label(new Rect(36, 30, 320, 36), "CRYSTAL LAB / GIT PRACTICE", title);
+        GUI.Label(new Rect(36, 30, 320, 36), "CRYSTAL LAB", title);
         GUI.Label(new Rect(36, 72, 310, 28), $"CRYSTALS  {Collected} / {total}     SCORE  {Score}", body);
         if (player != null) GUI.Label(new Rect(36, 103, 300, 28), $"SPEED  {player.moveSpeed:0}     HEALTH  {player.health}", body);
         GUI.Label(new Rect(36, 137, 310, 27), "WASD / ARROWS   |   R to restart", body);
